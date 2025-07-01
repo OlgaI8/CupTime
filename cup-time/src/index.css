@@ -476,6 +476,10 @@ img {
   .footer__container {
     grid-template-columns: 1fr;
   }
+
+  .footer__info {
+    order: 1;
+  }
 }
 
 @media (max-width: 480px) {
@@ -490,5 +494,5 @@ img {
   .footer__menu {
     flex-direction: column;
     gap: 16px;
-  }
+  }  
 }  

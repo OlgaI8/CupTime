@@ -1,14 +1,32 @@
+import { Route, Routes } from "react-router-dom";
 import { Promo } from "./Promo";
 import { Products } from "./Products";
+import { Cart } from "./Cart";
+import { Order } from "./Order";
 
 export const Main = () => {
   return (
     <main className="main">
-      
-      <Promo />
-
-      <Products />
-
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Promo />
+            <Products />
+          </>
+        } />
+        <Route path="/cart" element={
+          <>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Cart />
+            <Order />
+          </>
+        } />
+      </Routes>
     </main>
   );
 }
