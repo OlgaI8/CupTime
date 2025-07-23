@@ -16,12 +16,6 @@ export const Main = () => {
         } />
         <Route path="/cart" element={
           <>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <Cart />
             <Order />
           </>

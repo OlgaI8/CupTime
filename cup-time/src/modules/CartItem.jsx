@@ -8,7 +8,7 @@ export const CartItem = ({ data }) => {
         <div className="cart-item__quantity">
           <button className="cart-item__quantity-button cart-item__quantity-button_minus"></button>
           <input type="number" className="cart-item__quantity-input" value={1} />
-          <button className="cart-item__quantity_button cart-item__quantity-button_plus"></button>
+          <button className="cart-item__quantity-button cart-item__quantity-button_plus"></button>
         </div>
         <p className="cart-item__price">{data.price}&nbsp;₽</p>
       </div>
